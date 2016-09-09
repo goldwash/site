@@ -1,0 +1,193 @@
+/* ON EVERYTHING */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: black;
+  width: 100%;
+  font-family: 'Gudea',sans-serif;
+}
+
+strong{
+  font-weight: bold;
+}
+em{
+  font-style: italic;
+}
+
+img{
+  width: 100%;
+}
+
+a{
+  color: rgb(80,150,149);
+  text-decoration: none;
+  border: 2px solid rgb(80,150,149);
+  padding: 3px;
+}
+a:hover{
+  color: black;
+  background-color: rgb(80,150,149);
+}
+a.icon{
+  color: rgb(80,150,149);
+  border: none;
+}
+a.icon:hover{
+  color: rgb(80,150,149);
+  background-color: black;
+  border: none;
+}
+
+
+/* SPLASH PAGE CONTENT */
+
+#colorborder{
+  z-index: 1;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: url(whandur.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 93vh;
+  width: 95vw;
+  border-top: 3.5vh solid black;
+  border-bottom: 3.5vh solid black;
+  border-right: 2.5vw solid black;
+  border-left: 2.5vw solid black;
+}
+
+#colorborder img{
+  height: 100%;
+  width: 100%;
+}
+
+
+#center{
+  z-index: 10;
+  min-width: 853px;
+  width: 65vw;
+  min-height: 600px;
+  color: rgb(80,150,149);
+  overflow: hidden;
+  text-align: center;
+  background-color: black;
+  margin: 5vh auto;
+  padding: 20px 20px;
+  z-index: 5;
+}
+
+input[type="submit"] {
+  padding:5px 15px;
+  background:#ccc;
+  border:0 none;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  font-family: 'Gudea',sans-serif;
+}
+
+.enter{
+  cursor: pointer;
+  font-size: 15pt;
+}
+
+/* HOME PAGE CONTENT */
+
+#top,#bottom,#left,#right{
+  display: inline;
+  background-color: #333;
+  position: absolute;
+  z-index: 999;
+}
+
+#top{
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 20px;
+}
+#bottom{
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  height: 20px;
+}
+#left{
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  width: 20px;
+}
+#right{
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  width: 20px;
+}
+
+h1{
+  width: 100%;
+  text-align: center;
+}
+h1 a{
+  color: rgb(80,150,149);
+  text-decoration: none;
+}
+
+#container{
+  margin: 50px auto;
+  width: 60vw;
+  min-height: 100%;
+  margin-bottom: -200px;
+  color: white;
+}
+
+.divider{
+  max-width: 553px;
+  height: 66px;
+  margin: 0 auto;
+  background: url(bar.jpg);
+  margin: 50px auto;;
+}
+
+.sc-embed{
+  margin: 0px auto;
+}
+
+.content{
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#word_bottom{
+  background: rgb(80,150,149); /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(black, rgb(80,150,149)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(black, rgb(80,150,149)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(black, rgb(80,150,149)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(black, rgb(80,150,149)); /* Standard syntax */
+}
+
+#word_top{
+  background: rgb(211,113,64); /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(rgb(211,113,64), black); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgb(211,113,64), black); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(rgb(211,113,64), black); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgb(211,113,64), black); /* Standard syntax */
+  margin-top: -58px;
+}
+
+#contact{
+  width: 90%;
+  background-color: rgb(80,150,149);
+  color: black;
+  padding: 5%;
+}
