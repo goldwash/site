@@ -72,9 +72,9 @@ a.icon:hover{
 
 #center{
   z-index: 10;
-  min-width: 853px;
+  xmin-width: 853px;
   width: 65vw;
-  min-height: 600px;
+  xmin-height: 600px;
   color: rgb(80,150,149);
   overflow: hidden;
   text-align: center;
@@ -151,12 +151,17 @@ h1 a{
 }
 
 .divider{
-  max-width: 553px;
+  max-width: 533px;
   height: 66px;
   margin: 0 auto;
-  background: url(bar.jpg);
-  margin: 50px auto;;
+  /* background: url(bar.jpg); */
+  margin: 50px auto;
 }
+.divider img{
+  width: 100%;
+}
+
+
 
 .sc-embed{
   margin: 0px auto;
