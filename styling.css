@@ -9,6 +9,7 @@ body{
   background-color: black;
   width: 100%;
   font-family: 'Gudea',sans-serif;
+  line-height: 220%;
 }
 
 strong{
@@ -23,21 +24,21 @@ img{
 }
 
 a{
-  color: rgb(80,150,149);
+  color: rgb(253,160,6);
   text-decoration: none;
-  border: 2px solid rgb(80,150,149);
+  border: 2px solid rgb(253,160,6);
   padding: 3px;
 }
 a:hover{
   color: black;
-  background-color: rgb(80,150,149);
+  background-color: rgb(253,160,6);
 }
 a.icon{
-  color: rgb(80,150,149);
+  color: rgb(253,160,6);
   border: none;
 }
 a.icon:hover{
-  color: rgb(80,150,149);
+  color: rgb(253,160,6);
   background-color: black;
   border: none;
 }
@@ -101,34 +102,34 @@ a.icon:hover{
   z-index: 10;
   width: 65vw;
   min-width: 300px;
-  color: rgb(80,150,149);
+  color: rgb(253,160,6);
   text-align: center;
   background-color: black;
-  margin: 5vh auto;
+  margin: 8vh auto;
   padding: 20px 20px;
   z-index: 5;
 }
 
 input[type="submit"] {
   padding: 3px 7px;
-  border: 2px solid rgb(80,150,149);
+  border: 2px solid rgb(253,160,6);
   cursor:pointer;
   font-family: 'Gudea',sans-serif;
   font-size: 12pt;
   background-color: black;
-  color: rgb(80,150,149);
+  color: rgb(253,160,6);
 }
 input[type="submit"]:hover{
   color: black;
-  background-color: rgb(80,150,149);
+  background-color: rgb(253,160,6);
 }
 
 input[type="email"]{
   width: 300px;
   background-color: black;
   font-size: 12pt;
-  color: rgb(80,150,149);
-  border: 2px solid rgb(80,150,149);
+  color: rgb(253,160,6);
+  border: 2px solid rgb(253,160,6);
   padding: 3px;
 
 }
@@ -145,7 +146,7 @@ h1{
   text-align: center;
 }
 h1 a{
-  color: rgb(80,150,149);
+  color: rgb(253,160,6);
   text-decoration: none;
 }
 
@@ -178,27 +179,20 @@ h1 a{
 }
 
 #word_bottom{
-  background: rgb(80,150,149); /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(black, rgb(80,150,149)); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(black, rgb(80,150,149)); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(black, rgb(80,150,149)); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(black, rgb(80,150,149)); /* Standard syntax */
-}
-
-#word_top{
-  background: rgb(211,113,64); /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(rgb(211,113,64), black); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(rgb(211,113,64), black); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(rgb(211,113,64), black); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(rgb(211,113,64), black); /* Standard syntax */
-  margin-top: -58px;
+  background: rgb(253,160,6); /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(black, rgb(253,160,6)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(black, rgb(253,160,6)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(black, rgb(253,160,6)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(black, rgb(253,160,6)); /* Standard syntax */
 }
 
 #contact{
-  width: 90%;
-  background-color: rgb(80,150,149);
+  100%;
+  background-color: rgb(253,160,6);
   color: black;
-  padding: 10px;;
+  padding: 10px;
+  line-height: 170%;
+
 }
 #contact a{
   color: black;
@@ -206,5 +200,5 @@ h1 a{
 }
 #contact a:hover{
   color: black;
-  background-color: rgb(80,150,149);
+  background-color: rgb(253,160,6);
 }
