@@ -110,23 +110,27 @@ a.icon:hover{
 }
 
 input[type="submit"] {
-  padding:5px 15px;
-  border:0 none;
+  padding: 3px 7px;
+  border: 2px solid rgb(80,150,149);
   cursor:pointer;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
   font-family: 'Gudea',sans-serif;
   font-size: 12pt;
-  background-color: rgb(80,150,149);
-  color: black;
+  background-color: black;
+  color: rgb(80,150,149);
 }
+input[type="submit"]:hover{
+  color: black;
+  background-color: rgb(80,150,149);
+}
+
 input[type="email"]{
   width: 300px;
   background-color: black;
-  border: 2px solid rgb(80,150,149);
   font-size: 12pt;
   color: rgb(80,150,149);
+  border: 2px solid rgb(80,150,149);
   padding: 3px;
+
 }
 
 .enter{
@@ -163,9 +167,6 @@ h1 a{
 .divider img{
   width: 100%;
 }
-
-
-
 .sc-embed{
   margin: 0px auto;
 }
@@ -197,5 +198,13 @@ h1 a{
   width: 90%;
   background-color: rgb(80,150,149);
   color: black;
-  padding: 5%;
+  padding: 10px;;
+}
+#contact a{
+  color: black;
+  border: none;
+}
+#contact a:hover{
+  color: black;
+  background-color: rgb(80,150,149);
 }
