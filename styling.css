@@ -80,6 +80,7 @@ a.icon:hover{
 
 #colorbg{
   z-index: 1;
+  display: inline;
   position: absolute;
   left: 0;
   top: 0;
@@ -91,23 +92,35 @@ a.icon:hover{
   height: 100vh;
   width: 100%
 }
-
-#colorborder img{
-  height: 100%;
-  width: 100%;
+#black_sq{
+  background-color: black;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  overflow: auto;
 }
 
-
 #center{
-  z-index: 10;
-  width: 65vw;
-  min-width: 300px;
-  color: rgb(253,160,6);
+  width: 100%;
+  display: inline;
+  margin: 0 auto;
   text-align: center;
-  background-color: black;
-  margin: 8vh auto;
-  padding: 20px 20px;
-  z-index: 5;
+  z-index: 10;
+  color: rgb(253,160,6);
+  background-color: rgba(0,0,0,0);
+  position: relative;
+  top: 0px;
+}
+
+#yt_container{
+  width: 90%;
+  margin: 0 auto;
+}
+#yt-video{
+  width: 100%;
+  max-width: 850px;
+  min-width: 300px;
+  margin: 0 auto;
 }
 
 input[type="submit"] {
@@ -137,6 +150,7 @@ input[type="email"]{
 .enter{
   cursor: pointer;
   font-size: 15pt;
+  margin: 0 auto;
 }
 
 /* HOME PAGE CONTENT */
@@ -169,7 +183,7 @@ h1 a{
   width: 100%;
 }
 .sc-embed{
-  margin: 0px auto;
+  width: 100%;
 }
 
 .content{
@@ -184,21 +198,21 @@ h1 a{
   background: -o-linear-gradient(black, rgb(253,160,6)); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(black, rgb(253,160,6)); /* For Firefox 3.6 to 15 */
   background: linear-gradient(black, rgb(253,160,6)); /* Standard syntax */
+  width: 100%;
+  line-height: 0%;
 }
-
 #contact{
-  100%;
-  background-color: rgb(253,160,6);
-  color: black;
+  width: 100%;
+  background-color: black;
+  color: rgb(253,160,6);
   padding: 10px;
   line-height: 170%;
-
 }
 #contact a{
-  color: black;
+  color: rgb(253,160,6);
   border: none;
 }
 #contact a:hover{
-  color: black;
-  background-color: rgb(253,160,6);
+  color: rgb(253,160,6);
+  background-color: black;
 }

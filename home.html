@@ -9,7 +9,9 @@
 
       $(document).ready(function(){
 
-        //var doc_height = $(document).height();
+
+        var sc_w = $('.sc-embed').eq(1).width();
+        $('.sc-embed').css('height',sc_w+'');
 
       });
 
@@ -37,6 +39,16 @@
 
       <!-- embeds n such -->
 
+      <h1>
+        <a class="icon" href="https://www.facebook.com/Goldwashmusic/"><i class="ss-icon">facebook</i></a>&nbsp;
+        <a class="icon" href="http://twitter.com/goldwashmusic"><i class="ss-icon">twitter</i></a>&nbsp;
+        <a class="icon" href="https://www.instagram.com/goldwashmusic/"><i class="ss-icon">instagram</i></a>&nbsp;
+        <a class="icon" href="https://open.spotify.com/artist/7yYa2im7sawSzuVkXx8W21"><i class="ss-icon">spotify</i></a>&nbsp;
+        <a class="icon" href="https://soundcloud.com/goldwash"><i class="ss-icon">soundcloud</i></a>&nbsp;
+        <a class="icon" href="">☃</a>&nbsp;
+        <a href="shows.html">SHOWS</a>
+      </h1>
+
       <div class="content">
 
         <!-- Begin MailChimp Signup Form -->
@@ -57,79 +69,70 @@
             </div>
           </form>
         </div>
-        <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+        <!--<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script> -->
         <!--End mc_embed_signup-->
 
       </div>
-
-      <br /><br /><br />
-      <h1>
-        <a class="icon" href="https://www.facebook.com/Goldwashmusic/"><i class="ss-icon">facebook</i></a>&nbsp;
-        <a class="icon" href="http://twitter.com/goldwashmusic"><i class="ss-icon">twitter</i></a>&nbsp;
-        <a class="icon" href="https://www.instagram.com/goldwashmusic/"><i class="ss-icon">instagram</i></a>&nbsp;
-        <a class="icon" href="https://open.spotify.com/artist/7yYa2im7sawSzuVkXx8W21"><i class="ss-icon">spotify</i></a>&nbsp;
-        <a class="icon" href="https://soundcloud.com/goldwash"><i class="ss-icon">soundcloud</i></a>&nbsp;
-        <a class="icon" href="">☃</a>&nbsp;
-        <a href="shows.html">SHOWS</a>
-      </h1>
 
       <div class="divider">
         <img src="bar1.jpg" />
       </div>
 
-      <iframe class="sc-embed" width="100%" height="600" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/251548918&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+      <iframe class="sc-embed" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/251548918&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+
 
       <div class="divider">
         <img src="bar2.jpg" />
       </div>
 
-      <iframe class="sc-embed" width="100%" height="200" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/249471947&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+      <iframe class="sc-embed" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/204170119&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+
 
       <div class="divider">
         <img src="bar3.jpg" />
       </div>
 
-      <iframe class="sc-embed" width="100%" height="200" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/245285740&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+      <!--
+<iframe class="sc-embed" width="100%" height="200" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/245285740&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 
-      <div class="divider">
-        <img src="bar6.jpg" />
-      </div>
+<div class="divider">
+<img src="bar6.jpg" />
+</div>
 
-      <iframe class="sc-embed" width="100%" height="200" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/241733865&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+<iframe class="sc-embed" width="100%" height="200" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/241733865&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 
-      <div class="divider">
-        <img src="bar4.jpg" />
-      </div>
+<div class="divider">
+<img src="bar4.jpg" />
+</div>
 
-      <iframe width="853" height="480" src="https://www.youtube.com/embed/dr7EkBEATAU?rel=0&amp;controls=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="853" height="480" src="https://www.youtube.com/embed/dr7EkBEATAU?rel=0&amp;controls=0" frameborder="0" allowfullscreen></iframe>
 
-      <div class="divider">
-        <img src="bar5.jpg" />
-      </div>
+<div class="divider">
+<img src="bar5.jpg" />
+</div>
+-->
 
-      <div id="word_bottom">
-        <img src="wordmark.png" />
-      </div>
+
       <div id="contact">
 
         chat - goldwashmusic@gmail.com <br />
         mgmt - jake@holographgroup.com <br />
 
-        <br />
         <a class="icon" href="https://www.facebook.com/Goldwashmusic/"><i class="ss-icon">facebook</i></a>&nbsp;
         <a class="icon" href="http://twitter.com/goldwashmusic"><i class="ss-icon">twitter</i></a>&nbsp;
         <a class="icon" href="https://www.instagram.com/goldwashmusic/"><i class="ss-icon">instagram</i></a>&nbsp;
         <a class="icon" href="https://open.spotify.com/artist/7yYa2im7sawSzuVkXx8W21"><i class="ss-icon">spotify</i></a>&nbsp;
         <a class="icon" href="https://soundcloud.com/goldwash"><i class="ss-icon">soundcloud</i></a>&nbsp;
         <a class="icon" href="">☃</a>&nbsp;
-
-        <br /><br />
+        <br />
         © Goldwash<br />
-        site by <a href="http://ltwp.net">ltwp &rarr;</a>
-        <br /><br />
-
-
+        <!-- site by <a href="http://ltwp.net">ltwp &rarr;</a> -->
       </div>
+      <div id="word_bottom">
+        <img src="wordmark.png" />
+      </div>
+
+
 
     </div>
 
