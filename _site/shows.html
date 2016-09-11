@@ -1,6 +1,227 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <!--<link rel="stylesheet" type="text/css" media="print" href="/css/styling.css" />-->
+<style>
+  /* ON EVERYTHING */
+
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+  body{
+    background-color: black;
+    width: 100%;
+    font-family: 'Gudea',sans-serif;
+    line-height: 220%;
+  }
+
+  strong{
+    font-weight: bold;
+  }
+  em{
+    font-style: italic;
+  }
+
+  img{
+    width: 100%;
+  }
+
+  a{
+    color: rgb(253,160,6);
+    text-decoration: none;
+    border: 2px solid rgb(253,160,6);
+    padding: 3px;
+  }
+  a:hover{
+    color: black;
+    background-color: rgb(253,160,6);
+  }
+  a.icon{
+    color: rgb(253,160,6);
+    border: none;
+  }
+  a.icon:hover{
+    color: rgb(253,160,6);
+    background-color: black;
+    border: none;
+  }
+
+
+  /* SPLASH PAGE CONTENT */
+
+  #colorbg{
+    z-index: 1;
+    display: inline;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(whandur.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: 100%
+  }
+  #black_sq{
+    background-color: black;
+    position: relative;
+    top: 60px;
+    left: 60px;
+    overflow: auto;
+    padding: 10px;
+  }
+
+  #center{
+    width: 100%;
+    display: inline;
+    margin: 0 auto;
+    text-align: center;
+    z-index: 10;
+    color: rgb(253,160,6);
+    background-color: rgba(0,0,0,0);
+    position: relative;
+    top: 0px;
+  }
+
+  #yt_container{
+    width: 90%;
+    margin: 0 auto;
+  }
+  #yt-video{
+    width: 100%;
+    max-width: 850px;
+    min-width: 300px;
+    margin: 0 auto;
+  }
+
+  input[type="submit"] {
+    padding: 3px 7px;
+    border: 2px solid rgb(253,160,6);
+    cursor:pointer;
+    font-family: 'Gudea',sans-serif;
+    font-size: 12pt;
+    background-color: black;
+    color: rgb(253,160,6);
+  }
+  input[type="submit"]:hover{
+    color: black;
+    background-color: rgb(253,160,6);
+  }
+
+  input[type="email"]{
+    width: 300px;
+    background-color: black;
+    font-size: 12pt;
+    color: rgb(253,160,6);
+    border: 2px solid rgb(253,160,6);
+    padding: 3px;
+
+  }
+
+  .enter{
+    cursor: pointer;
+    font-size: 15pt;
+    margin: 0 auto;
+  }
+
+  /* HOME PAGE CONTENT */
+
+  h1{
+    width: 100%;
+    text-align: center;
+  }
+  h1 a{
+    color: rgb(253,160,6);
+    text-decoration: none;
+  }
+
+  #container{
+    margin: 50px auto;
+    width: 60vw;
+    min-height: 100%;
+    margin-bottom: -200px;
+    color: white;
+    text-align: center;
+  }
+
+  .divider{
+    max-width: 450px;
+    height: 56px;
+    margin: 0 auto;
+    /* background: url(bar.jpg); */
+    margin: 50px auto;
+  }
+  .divider img{
+    width: 100%;
+  }
+
+  .sc-container{
+    margin: 0 auto;
+  }
+  .sc-embed{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 550px;
+  }
+
+  .content{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(253,160,6);
+  }
+  h2{
+    font-size: 20pt;
+    margin: 20px 0px;
+  }
+
+  #word_bottom{
+    background: rgb(253,160,6); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(black, rgb(253,160,6)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(black, rgb(253,160,6)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(black, rgb(253,160,6)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(black, rgb(253,160,6)); /* Standard syntax */
+    width: 100%;
+    line-height: 0%;
+  }
+  #contact{
+    width: 100%;
+    background-color: black;
+    color: rgb(253,160,6);
+    line-height: 170%;
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  #contact .icon{
+    font-size: 17pt;
+  }
+  #contact a{
+    color: rgb(253,160,6);
+    border: none;
+  }
+  #contact a:hover{
+    color: rgb(253,160,6);
+    background-color: black;
+  }
+
+
+</style>
+
+    <title>GOLDWASH</title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css?family=Gudea" rel="stylesheet">
+<link href="webfonts/ss-social-circle.css" rel="stylesheet" />
+<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+
     <script>
 
       $(document).ready(function(){
@@ -16,16 +237,6 @@
       });
 
     </script>
-    <title>GOLDWASH</title>
-<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-<script type="text/javascript" src="https://code.jquery.com/jquery-latest.js"></script>
-<meta charset="UTF-8">
-<link href="https://fonts.googleapis.com/css?family=Gudea|Roboto+Condensed" rel="stylesheet">
-<link href="webfonts/ss-social-circle.css" rel="stylesheet" />
-<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" type="text/css" media="print" href="/css/styling.css" />
-
-
   </head>
   <body>
 
@@ -71,8 +282,36 @@
         <img src="bar1.jpg" />
       </div>
 
-      shows list here.
+      <div class="content">
+        <h2>
+  20 January 2017 - Washington, DC at <a href="http://www.blackcatdc.com/">Black Cat</a>
+</h2>
 
+<h2>
+24 January 2017 - New York, NY at <a href="http://www.websterhall.com/">Webster Hall</a>
+</h2>
+
+<h2>
+  28 January 2017 - New Haven, CT at <a href="http://www.toadsplace.com/">Toad's Place</a>
+</h2>
+
+<h2>
+1 February 2017 - Providence, RI at The Sweaty Room
+</h2>
+
+<h2>
+  4 February 2017 - Boston, MA at <a href="http://www.houseofblues.com/boston/events">House of Blues</a>
+</h2>
+
+<h2>
+  10 February 2017 - Montr&eacute;al, QC at <a href="http://www.latulipe.ca/">La Tulipe</a>
+</h2>
+
+<h2>
+  15 February 2017 - Los Angeles, CA at <a href="http://www.theecho.com/">The Echo</a>
+</h2>
+
+      </div>
 
 
       <div class="divider">
@@ -82,7 +321,7 @@
       <div id="word_bottom">
         <img src="wordmark.png" />
       </div>
-<br /><br />
+      <br /><br />
       <div id="contact">
         <a class="icon" href="https://www.facebook.com/Goldwashmusic/"><i class="ss-icon">facebook</i></a>&nbsp;
 <a class="icon" href="http://twitter.com/goldwashmusic"><i class="ss-icon">twitter</i></a>&nbsp;
