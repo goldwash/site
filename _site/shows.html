@@ -215,6 +215,13 @@
   .snapchat{
     cursor: pointer;
   }
+  .snapchat_name{
+    position: relative;
+    top: -4px;
+    left: 0px;
+    color: rgb(253,160,6);
+    line-height: 170%;
+  }
 
 
 </style>
@@ -226,6 +233,15 @@
 <link href="https://fonts.googleapis.com/css?family=Gudea" rel="stylesheet">
 <link href="webfonts/ss-social-circle.css" rel="stylesheet" />
 <!--<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">-->
+<script type="text/javascript">
+  $(document).ready(function() {
+    $(".snapchat_name").hide();
+    //toggle the componenet with class msg_body
+    $(".snapchat").click(function(){
+      $(".snapchat_name").slideToggle(300);
+    });
+  });
+</script>
 
     <script>
 
@@ -255,7 +271,9 @@
         <a class="icon" target="_blank" href="https://soundcloud.com/goldwash"><i class="ss-icon">soundcloud</i></a>&nbsp;
         <img class="snapchat" style="width: 32px;" src="snapchat_orange.png" />&nbsp;
         <a href="home.html">HOME</a>
-
+        <div class="snapchat_name">
+          goldwash
+        </div>
       </h1>
 
       <div class="content">
@@ -333,7 +351,7 @@
 <a class="icon" target="_blank" href="https://www.instagram.com/goldwashmusic/"><i class="ss-icon">instagram</i></a>&nbsp;
 <a class="icon" target="_blank" href="https://open.spotify.com/artist/7yYa2im7sawSzuVkXx8W21"><i class="ss-icon">spotify</i></a>&nbsp;
 <a class="icon" target="_blank" href="https://soundcloud.com/goldwash"><i class="ss-icon">soundcloud</i></a>&nbsp;
-<img class="snapchat" style="width: 22px;" src="snapchat_orange.png" /><br />
+<img class="snapchat" style="width: 22px;" src="snapchat_orange.png" /><span class="snapchat_name">&nbsp; - goldwash</span><br />
 chat - goldwashmusic@gmail.com <br />
 mgmt - jake@holographgroup.com <br />
 <a href="">download EPK</a><br />
